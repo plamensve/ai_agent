@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+*.ruff_cache/
+*.pytype/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Environment variables ----
+.env
+.env.*
+
+# ---- IDE / PyCharm ----
+.idea/
+*.iml
+
+# ---- Logs ----
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+
+# ---- Cache ----
+.cache/
+pip-wheel-metadata/
