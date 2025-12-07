@@ -11,9 +11,11 @@ TOOLS = {
     "send_email": send_email,
 }
 
-response = agent.invoke(
-    "Send an email to svetoslavov.dev@gmail.com and say HI"
-)
+
+message = ('Изпрати имел до svetoslavov.dev@gmail.com - искам 10000л. дизелово гориво б6. Искам заявката да е '
+           'професионално оформена')
+
+response = agent.invoke(message)
 
 tool_messages = []
 
