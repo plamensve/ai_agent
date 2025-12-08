@@ -3,6 +3,7 @@ from tools.date_tool import get_current_date
 from tools.calc_tool import calculate_expression
 from tools.email_tool import send_email
 from tools.excel_tool import excel_column_remover, excel_column_add
+from tools.visit_url_tool import open_url
 
 agent = create_basic_agent()
 
@@ -11,11 +12,12 @@ TOOLS = {
     "calculate_expression": calculate_expression,
     "send_email": send_email,
     'excel_column_remover': excel_column_remover,
-    'excel_column_add': excel_column_add
+    'excel_column_add': excel_column_add,
+    'open_url': open_url
 }
 
 
-message = "Add column 'name'"
+message = "open youtube please"
 
 response = agent.invoke(message)
 

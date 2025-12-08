@@ -8,10 +8,10 @@ from tools.excel_tool import excel_column_remover, excel_column_add
 from tools.calc_tool import calculate_expression
 from tools.date_tool import get_current_date
 from tools.email_tool import send_email
-
+from tools.visit_url_tool import open_url
 
 load_dotenv()
-tools = [get_current_date, calculate_expression, send_email, excel_column_remover, excel_column_add]
+tools = [get_current_date, calculate_expression, send_email, excel_column_remover, excel_column_add, open_url]
 
 
 def create_basic_agent():
